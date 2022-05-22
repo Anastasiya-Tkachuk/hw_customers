@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content {
+    max-width: calc(1170px + 15px * 2);
+	padding: 0 15px;
+	margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.customers {
+	min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.customers--title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    padding: 105px 0 54px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.content > hr {
+    margin: 0 auto;
+}
+.customers--subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+    margin: 40px auto 79px
+}
+.customers--review {
+    display: flex;
+    justify-content: space-between;
+}
+.customers--rewiew--answer {
+    width: 370px;
+    height: 180px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    padding: 40px 15px;
+    text-align: center;
+    position: relative;
+}
+.customers--rewiew--answer::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 70px;
+    border: 20px solid transparent;
+    border-top: 30px solid #E2E2E2; 
+}
+
+.customers--rewiew--answer--contacts {
+    margin: 105px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+.customers--rewiew--answer--contacts > h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+    }
+.customers--rewiew--answer--contacts > h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
